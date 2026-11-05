@@ -421,6 +421,17 @@ function App() {
               <div className="address-icon"><MapPin/></div>
               <div>
                 <strong>{hi ? 'हमारा पता' : 'Our Address'}</strong>
+                <img
+  src="/services-banner.png"
+  alt="PATEL INFOTECH Services"
+  style={{
+    width: '100%',
+    height: 'auto',
+    display: 'block',
+    marginBottom: '16px',
+    borderRadius: '12px'
+  }}
+/>
                 <p>
                   Jawahar Nagar Police Station,<br/>
                   Garkheda Parisar, Chh. Sambhajinagar,<br/>
